@@ -67,7 +67,7 @@ public class Main3Activity extends Activity {
                 images.add(mat1);
                 images.add(mat2);
                 images.add(mat3);
-                Mat resultImage = exposureFusion(images, 1,1,1,3);
+                Mat resultImage = exposureFusion(images, 1,1,1,1);
 
                 Bitmap bmp = Bitmap.createBitmap(resultImage.cols(), resultImage.rows(), Bitmap.Config.ARGB_8888);
                 Utils.matToBitmap(resultImage, bmp);
