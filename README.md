@@ -7,8 +7,8 @@ Here is a link to their paper.
 https://mericam.github.io/papers/exposure_fusion_reduced.pdf
 
 This camera takes the same image 3 times with different exposure levels. Then it merges the desirable parts of each image to form an HDR image.  
-Here are some examples.  
+Here is an example. The following three images are the same image took with different exposure levels.   
 ![alt text](https://github.com/SNUHDR2018/SNUHDRApp/blob/master/image13.png)  
-This is the result.  
+This is the result of exposure fusing them.  
 ![alt text](https://github.com/SNUHDR2018/SNUHDRApp/blob/master/Exposure%20Fusion%20Result.png)
 
